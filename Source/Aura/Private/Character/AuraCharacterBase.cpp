@@ -44,5 +44,7 @@ void AAuraCharacterBase::InitialiseDefaultAttributes() const
 {
 	ApplyGameplayEffectToSelf(DefaultPrimaryAttributes, 1.f);
 	ApplyGameplayEffectToSelf(DefaultSecondaryAttributes, 1.f);
+
+	ApplyGameplayEffectToSelf(DefaultVitalAttributes, 1.f);
 }
 
