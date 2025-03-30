@@ -50,11 +50,11 @@ void AAuraEnemy::BeginPlay()
 	InitAbilityActorInfo();
 
 	/*
-	Step 1: Check if the WidgetController is valid using a cast to AuraUserWidget, 
-	if valid, set widgetcontroller, using the hint from video, I'll set it to Enemy Class (this)
-	Step 2: Check if the AttributeSet is valid, if valid, set up delegate lambda functions to 
-	broadcast new values on changed delegates
-	Step 3: Broadcast the attributes
+	Step 1: Check if the UserWidget is valid, casting the WidgetComponent to AuraUserWidget and 
+	get object, if valid, set widgetcontroller, using the hint from video, I'll set it to Enemy Class (this)
+	Step 2: Check if the AttributeSet is valid, casting to our own AttributeSet, 
+	if valid, set up delegate lambda functions to broadcast new values on changed delegates
+	Step 3: Broadcast the initial attribute values
 	*/
 
 	if (UAuraUserWidget* AuraUserWidget = Cast<UAuraUserWidget>(HealthBar->GetUserWidgetObject()))
