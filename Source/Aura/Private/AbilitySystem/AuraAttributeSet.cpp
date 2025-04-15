@@ -7,6 +7,7 @@
 #include "GameplayEffectExtension.h"
 #include "Net/UnrealNetwork.h"
 #include "AuraGameplayTags.h"
+#include "Interaction/CombatInterface.h"
 
 UAuraAttributeSet::UAuraAttributeSet()
 {
@@ -151,7 +152,16 @@ void UAuraAttributeSet::PostGameplayEffectExecute(const FGameplayEffectModCallba
 			//UE_LOG(LogTemp, Warning, TEXT("Health Changed on %s, Health: %f"), *Props.TargetAvatarActor->GetName(), GetHealth());
 			const bool bFatal = NewHealth <= 0.f;
 
-			if (!bFatal)
+			if (bFatal)
+			{
+				ICombatInterface* CombatInterface = Cast<ICombatInterface>(Props.TargetAvatarActor);
+
+				if (CombatInterface)
+				{
+					CombatInterface->Die();
+				}
+			}
+			else
 			{
 				FGameplayTagContainer TagContainer;
 				TagContainer.AddTag(FAuraGameplayTags::Get().Effects_HitReact);
