@@ -4,14 +4,17 @@
 #include "AbilitySystem/ExecCalc/ExecCalc_Damage.h"
 #include "AbilitySystemComponent.h"
 #include "AbilitySystem/AuraAttributeSet.h"
+#include "AuraGameplayTags.h"
 
 struct AuraDamageStatics
 {
 	DECLARE_ATTRIBUTE_CAPTUREDEF(Armour);
+	DECLARE_ATTRIBUTE_CAPTUREDEF(BlockChance);
 
 	AuraDamageStatics()
 	{
 		DEFINE_ATTRIBUTE_CAPTUREDEF(UAuraAttributeSet, Armour, Target, false);
+		DEFINE_ATTRIBUTE_CAPTUREDEF(UAuraAttributeSet, BlockChance, Target, false);
 	}
 };
 
@@ -24,6 +27,7 @@ static const AuraDamageStatics& DamageStatics()
 UExecCalc_Damage::UExecCalc_Damage()
 {
 	RelevantAttributesToCapture.Add(DamageStatics().ArmourDef);
+	RelevantAttributesToCapture.Add(DamageStatics().BlockChanceDef);
 }
 
 void UExecCalc_Damage::Execute_Implementation(const FGameplayEffectCustomExecutionParameters& ExecutionParams, 
@@ -44,12 +48,26 @@ void UExecCalc_Damage::Execute_Implementation(const FGameplayEffectCustomExecuti
 	EvaluationParameters.SourceTags = SourceTags;
 	EvaluationParameters.TargetTags = TargetTags;
 
-	float Armour = 0.f;
+	// Get Damage Set by Caller Magnitude
+	float Damage = Spec.GetSetByCallerMagnitude(FAuraGameplayTags::Get().Damage);
 
-	ExecutionParams.AttemptCalculateCapturedAttributeMagnitude(DamageStatics().ArmourDef, EvaluationParameters, Armour);
-	Armour = FMath::Max<float>(0.f, Armour);
-	++Armour;
+	// Capture BlockChance on Target, and determine if there was a Block
+	// If Blocked, halve the incoming damage
 
-	const FGameplayModifierEvaluatedData EvaluatedData(DamageStatics().ArmourProperty, EGameplayModOp::Additive, Armour);
+	float TargetBlockChance = 0.f;
+	ExecutionParams.AttemptCalculateCapturedAttributeMagnitude(DamageStatics().BlockChanceDef, EvaluationParameters, TargetBlockChance);
+
+	TargetBlockChance = FMath::Max<float>(TargetBlockChance, 0.f);
+
+	// Create a const boolean to handle random range then use that to determine if a block occurs with TargetBlockChance
+	// It will only be true if the random range is less than the float value of TargetBlockChance
+	// Set Damage to be a tertinary operation of if bBlocked is true halve the damage 
+	// otherwise set it to original attribute value
+	
+	const bool bBlocked = FMath::RandRange(1, 100) < TargetBlockChance;
+
+	Damage = bBlocked ? Damage / 2.f : Damage;
+
+	const FGameplayModifierEvaluatedData EvaluatedData(UAuraAttributeSet::GetIncomingDamageAttribute(), EGameplayModOp::Additive, Damage);
 	OutExecuteOutput.AddOutputModifier(EvaluatedData);
 }
