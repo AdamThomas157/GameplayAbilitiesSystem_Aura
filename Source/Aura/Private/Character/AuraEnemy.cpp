@@ -59,7 +59,11 @@ void AAuraEnemy::BeginPlay()
 	GetCharacterMovement()->MaxWalkSpeed = BaseWalkSpeed;
 
 	InitAbilityActorInfo();
-	UAuraAbilitySystemLibrary::GiveStartupAbilities(this, AbilitySystemComponent);
+
+	if (HasAuthority())
+	{
+		UAuraAbilitySystemLibrary::GiveStartupAbilities(this, AbilitySystemComponent);
+	}
 
 	/*
 	Step 1: Check if the UserWidget is valid, casting the WidgetComponent to AuraUserWidget and 
@@ -110,8 +114,10 @@ void AAuraEnemy::InitAbilityActorInfo()
 {
 	AbilitySystemComponent->InitAbilityActorInfo(this, this);
 	Cast<UAuraAbilitySystemComponent>(AbilitySystemComponent)->AbilityActorInfoSet();
-
-	InitialiseDefaultAttributes();
+	if(HasAuthority())
+	{
+		InitialiseDefaultAttributes();
+	}
 }
 
 void AAuraEnemy::InitialiseDefaultAttributes() const
