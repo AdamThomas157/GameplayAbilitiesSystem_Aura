@@ -7,13 +7,24 @@
     {
       "Name": "Aura",
       "Type": "Runtime",
-      "LoadingPhase": "Default"
+      "LoadingPhase": "Default",
+      "AdditionalDependencies": [
+        "Engine",
+        "GameplayAbilities",
+        "UMG",
+        "CoreUObject",
+        "EnhancedInput",
+        "AIModule"
+      ]
     }
   ],
   "Plugins": [
     {
       "Name": "ModelingToolsEditorMode",
-      "Enabled": true
+      "Enabled": true,
+      "TargetAllowList": [
+        "Editor"
+      ]
     },
     {
       "Name": "GameplayAbilities",
@@ -22,13 +33,6 @@
     {
       "Name": "MotionWarping",
       "Enabled": true
-    },
-    {
-      "Name": "VisualStudioTools",
-      "Enabled": true,
-      "SupportedTargetPlatforms": [
-        "Win64"
-      ]
     }
   ],
   "TargetPlatforms": [],
