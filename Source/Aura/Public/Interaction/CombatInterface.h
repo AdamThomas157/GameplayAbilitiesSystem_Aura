@@ -42,7 +42,7 @@ public:
 	virtual int32 GetPlayerLevel();
 
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
-	FVector GetCombatSocketLocation();
+	FVector GetCombatSocketLocation(const FGameplayTag& MontageTag);
 
 	// Update asset's facing target
 	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable)
