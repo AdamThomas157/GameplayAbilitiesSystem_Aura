@@ -1,0 +1,786 @@
+[
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Plugins\\VisualStudioTools\\Source\\VisualStudioBlueprintDebuggerHelper\\Private\\VisualStudioBlueprintDebuggerHelperModule.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\VisualStudioBlueprintDebuggerHelper.40.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Plugins\\VisualStudioTools\\Source\\VisualStudioBlueprintDebuggerHelper\\Private\\VisualStudioBlueprintDebuggerHelperModule.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\VisualStudioBlueprintDebuggerHelper.40.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Plugins\\VisualStudioTools\\Source\\VisualStudioBlueprintDebuggerHelper\\VisualStudioBlueprintDebuggerHelper.Build.cs",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\VisualStudioBlueprintDebuggerHelper.40.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Plugins\\VisualStudioTools\\Source\\VisualStudioTools\\Private\\BlueprintAssetHelper.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\VisualStudioTools.39.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Plugins\\VisualStudioTools\\Source\\VisualStudioTools\\Private\\BlueprintAssetHelpers.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\VisualStudioTools.39.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Plugins\\VisualStudioTools\\Source\\VisualStudioTools\\Private\\BlueprintReferencesCommandlet.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\VisualStudioTools.39.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Plugins\\VisualStudioTools\\Source\\VisualStudioTools\\Private\\BlueprintReferencesCommandlet.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\VisualStudioTools.39.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Plugins\\VisualStudioTools\\Source\\VisualStudioTools\\Private\\FSmartBSTR.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\VisualStudioTools.39.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Plugins\\VisualStudioTools\\Source\\VisualStudioTools\\Private\\VSServerCommandlet.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\VisualStudioTools.39.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Plugins\\VisualStudioTools\\Source\\VisualStudioTools\\Private\\VSServerCommandlet.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\VisualStudioTools.39.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Plugins\\VisualStudioTools\\Source\\VisualStudioTools\\Private\\VSTestAdapterCommandlet.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\VisualStudioTools.39.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Plugins\\VisualStudioTools\\Source\\VisualStudioTools\\Private\\VSTestAdapterCommandlet.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\VisualStudioTools.39.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Plugins\\VisualStudioTools\\Source\\VisualStudioTools\\Private\\VisualStudioTools.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\VisualStudioTools.39.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Plugins\\VisualStudioTools\\Source\\VisualStudioTools\\Private\\VisualStudioToolsBlueprintBreakpointExtension.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\VisualStudioTools.39.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Plugins\\VisualStudioTools\\Source\\VisualStudioTools\\Private\\VisualStudioToolsBlueprintBreakpointExtension.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\VisualStudioTools.39.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Plugins\\VisualStudioTools\\Source\\VisualStudioTools\\Private\\VisualStudioToolsCommandlet.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\VisualStudioTools.39.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Plugins\\VisualStudioTools\\Source\\VisualStudioTools\\Private\\VisualStudioToolsCommandlet.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\VisualStudioTools.39.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Plugins\\VisualStudioTools\\Source\\VisualStudioTools\\Private\\VisualStudioToolsCommandletBase.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\VisualStudioTools.39.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Plugins\\VisualStudioTools\\Source\\VisualStudioTools\\Private\\VisualStudioToolsCommandletBase.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\VisualStudioTools.39.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Plugins\\VisualStudioTools\\Source\\VisualStudioTools\\Public\\VisualStudioTools.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\VisualStudioTools.39.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Plugins\\VisualStudioTools\\Source\\VisualStudioTools\\VisualStudioTools.Build.cs",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\VisualStudioTools.39.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Aura.Build.cs",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Aura.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Aura.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Private\\AI\\AuraAIController.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Private\\AbilitySystem\\Abilities\\AuraDamageGameplayAbility.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Private\\AbilitySystem\\Abilities\\AuraGameplayAbility.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Private\\AbilitySystem\\Abilities\\AuraMeleeAttack.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Private\\AbilitySystem\\Abilities\\AuraProjectileSpell.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Private\\AbilitySystem\\Abilities\\AuraSummonAbility.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Private\\AbilitySystem\\AbilityTasks\\TargetDataUnderMouse.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Private\\AbilitySystem\\AuraAbilitySystemComponent.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Private\\AbilitySystem\\AuraAbilitySystemGlobals.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Private\\AbilitySystem\\AuraAbilitySystemLibrary.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Private\\AbilitySystem\\AuraAttributeSet.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Private\\AbilitySystem\\Data\\AttributeInfo.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Private\\AbilitySystem\\Data\\CharacterClassInfo.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Private\\AbilitySystem\\ExecCalc\\ExecCalc_Damage.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Private\\AbilitySystem\\MMC\\MMC_MaxHealth.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Private\\AbilitySystem\\MMC\\MMC_MaxMana.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Private\\Actor\\AuraEffectActor.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Private\\Actor\\AuraProjectile.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Private\\AuraAbilityTypes.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Private\\AuraAssetManager.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Private\\AuraGameplayTags.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Private\\Character\\AuraCharacter.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Private\\Character\\AuraCharacterBase.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Private\\Character\\AuraEnemy.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Private\\Game\\AuraGameModeBase.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Private\\Input\\AuraInputComponent.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Private\\Input\\AuraInputConfig.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Private\\Interaction\\CombatInterface.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Private\\Interaction\\EnemyInterface.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Private\\Player\\AuraPlayerController.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Private\\Player\\AuraPlayerState.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Private\\UI\\HUD\\AuraHUD.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Private\\UI\\WidgetController\\AttributeMenuWidgetController.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Private\\UI\\WidgetController\\AuraWidgetController.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Private\\UI\\WidgetController\\OverlayWidgetController.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Private\\UI\\Widget\\AuraUserWidget.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Private\\UI\\Widget\\DamageTextComponent.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Public\\AI\\AuraAIController.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Public\\AbilitySystem\\Abilities\\AuraDamageGameplayAbility.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Public\\AbilitySystem\\Abilities\\AuraGameplayAbility.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Public\\AbilitySystem\\Abilities\\AuraMeleeAttack.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Public\\AbilitySystem\\Abilities\\AuraProjectileSpell.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Public\\AbilitySystem\\Abilities\\AuraSummonAbility.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Public\\AbilitySystem\\AbilityTasks\\TargetDataUnderMouse.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Public\\AbilitySystem\\AuraAbilitySystemComponent.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Public\\AbilitySystem\\AuraAbilitySystemGlobals.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Public\\AbilitySystem\\AuraAbilitySystemLibrary.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Public\\AbilitySystem\\AuraAttributeSet.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Public\\AbilitySystem\\Data\\AttributeInfo.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Public\\AbilitySystem\\Data\\CharacterClassInfo.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Public\\AbilitySystem\\ExecCalc\\ExecCalc_Damage.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Public\\AbilitySystem\\MMC\\MMC_MaxHealth.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Public\\AbilitySystem\\MMC\\MMC_MaxMana.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Public\\Actor\\AuraEffectActor.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Public\\Actor\\AuraProjectile.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Public\\AuraAbilityTypes.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Public\\AuraAssetManager.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Public\\AuraGameplayTags.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Public\\Character\\AuraCharacter.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Public\\Character\\AuraCharacterBase.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Public\\Character\\AuraEnemy.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Public\\Game\\AuraGameModeBase.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Public\\Input\\AuraInputComponent.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Public\\Input\\AuraInputConfig.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Public\\Interaction\\CombatInterface.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Public\\Interaction\\EnemyInterface.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Public\\Player\\AuraPlayerController.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Public\\Player\\AuraPlayerState.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Public\\UI\\HUD\\AuraHUD.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Public\\UI\\WidgetController\\AttributeMenuWidgetController.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Public\\UI\\WidgetController\\AuraWidgetController.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Public\\UI\\WidgetController\\OverlayWidgetController.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Public\\UI\\Widget\\AuraUserWidget.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\Source\\Aura\\Public\\UI\\Widget\\DamageTextComponent.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default\\Aura.268.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	}
+]

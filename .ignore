@@ -1,0 +1,12 @@
+/.git
+/.vscode
+/Content
+/Data
+/DerivedDataCache
+/Intermediate
+/Platforms
+/Saved
+/Plugins/VisualStudioTools/azure-pipelines
+/Plugins/VisualStudioTools/Docs
+/Plugins/VisualStudioTools/Intermediate
+/Plugins/VisualStudioTools/Scripts
