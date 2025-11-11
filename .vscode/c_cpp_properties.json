@@ -1,22 +1,28 @@
 {
-	"configurations": [
-		{
-			"name": "AuraEditor Editor Win64 Development (Aura)",
-			"compilerPath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
-			"cStandard": "c17",
-			"cppStandard": "c++17",
-			"intelliSenseMode": "msvc-x64",
-			"configurationProvider": "epic.ue",
-			"compileCommands": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Aura.json"
-		},
-		{
-			"name": "Win32",
-			"compilerPath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\Hostx64\\x64\\cl.exe",
-			"cStandard": "c17",
-			"cppStandard": "c++17",
-			"intelliSenseMode": "msvc-x64",
-			"configurationProvider": "epic.ue",
-			"compileCommands": "C:\\Users\\bobdu\\Documents\\GitHub\\GameplayAbilitiesSystem_Aura\\.vscode\\compileCommands_Default.json"
-		}
-	]
+  "version": 4,
+  "configurations": [
+    {
+      "name": "Win64",
+      "compilerPath": "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33135/bin/Hostx64/x64/cl.exe",
+      "intelliSenseMode": "windows-msvc-x64",
+      "compileCommands": "${workspaceFolder}/.vscode/compileCommands_Default.json",
+      "includePath": [
+        "${workspaceFolder}/Source",
+        "${workspaceFolder}/Intermediate/Build",
+        "${workspaceFolder}/Plugins/**",
+        "C:/Program Files/Epic Games/UE_5.2/Engine/Source/**",
+        "C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/**"
+      ],
+      "defines": [
+        "WIN32",
+        "_DEBUG",
+        "_WINDOWS",
+        "PLATFORM_WINDOWS",
+        "UE_BUILD_DEVELOPMENT",
+        "UE_EDITOR=1"
+      ],
+      "cStandard": "c17",
+      "cppStandard": "c++20"
+    }
+  ]
 }

@@ -10,7 +10,13 @@
 		}
 	],
 	"settings": {
-		"typescript.tsc.autoDetect": "off"
+		"typescript.tsc.autoDetect": "off",
+		"C_Cpp.default.compileCommands": "${workspaceFolder}/.vscode/compileCommands_Default.json",
+		"C_Cpp.default.configurationProvider": "ms-vscode.cmake.tools",
+		"files.associations": {"*.generated.h": "cpp"},
+		"C_Cpp.intelliSenseEngine": "default",
+  		"C_Cpp.errorSquiggles": "enabled",
+  		"C_Cpp.intelliSenseEngineFallback": "Enabled"
 	},
 	"extensions": {
 		"recommendations": [
