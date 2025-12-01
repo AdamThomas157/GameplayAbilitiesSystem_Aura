@@ -16,3 +16,4 @@ Build
 /.vscode
 *.ipch
 *.VC.db
+*.ps1
