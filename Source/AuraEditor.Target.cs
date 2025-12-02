@@ -10,6 +10,8 @@ public class AuraEditorTarget : TargetRules
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 
+		bGenerateCompileCommands = true;
+
 		ExtraModuleNames.AddRange( new string[] { "Aura" } );
 	}
 }

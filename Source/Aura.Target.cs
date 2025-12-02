@@ -10,6 +10,8 @@ public class AuraTarget : TargetRules
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 
+		bGenerateCompileCommands = true;
+
 		ExtraModuleNames.AddRange( new string[] { "Aura" } );
 	}
 }
