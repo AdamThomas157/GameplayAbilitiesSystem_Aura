@@ -7,6 +7,7 @@
 #include "GameplayEffectExtension.h"
 #include "Net/UnrealNetwork.h"
 #include "AuraGameplayTags.h"
+#include "Aura/AuraLogChannels.h"
 #include "Interaction/CombatInterface.h"
 #include "Kismet/GameplayStatics.h"
 #include "Player/AuraPlayerController.h"
@@ -167,7 +168,6 @@ void UAuraAttributeSet::PostGameplayEffectExecute(const FGameplayEffectModCallba
 		{
 			const float NewHealth = GetHealth() - LocalIncomingDamage;
 			SetHealth(FMath::Clamp(NewHealth, 0.f, GetMaxHealth()));
-			//UE_LOG(LogTemp, Warning, TEXT("Health Changed on %s, Health: %f"), *Props.TargetAvatarActor->GetName(), GetHealth());
 			const bool bFatal = NewHealth <= 0.f;
 
 			if (bFatal)
@@ -190,6 +190,13 @@ void UAuraAttributeSet::PostGameplayEffectExecute(const FGameplayEffectModCallba
 			const bool bCriticalHit = UAuraAbilitySystemLibrary::IsCriticalHit(Props.EffectContextHandle);
 
 			ShowFloatingText(Props, LocalIncomingDamage, bBlock, bCriticalHit);
+		}
+
+		if(Data.EvaluatedData.Attribute == GetIncomingXPAttribute())
+		{
+			const float LocalIncomingXP = GetIncomingXP();
+			SetIncomingXP(0.f);
+			UE_LOG(LogAura, Log, TEXT("Incoming XP: %f"), LocalIncomingXP);
 		}
 	}
 }
