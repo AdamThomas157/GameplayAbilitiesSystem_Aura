@@ -1,5 +1,47 @@
 {
+    "C_Cpp.default.compileCommands": "${workspaceFolder}/.vscode/compileCommands_Aura.json",
+    "C_Cpp.default.intelliSenseMode": "windows-msvc-x64",
     "C_Cpp.intelliSenseEngine": "default",
-  	"C_Cpp.errorSquiggles": "enabled",
-  	
+  	"C_Cpp.errorSquiggles": "disabled",
+  	"C_Cpp.workspaceParsingPriority": "low",
+    "C_Cpp.loggingLevel": "Error",
+    "C_Cpp.codeAnalysis.runAutomatically": false,
+    "C_Cpp.intelliSenseCachePath": "${env:LOCALAPPDATA}/vscode-cpptools/ipch/Aura",
+    "C_Cpp.intelliSenseCacheSize": 8192,
+
+    "C_Cpp.default.browse.path": ["${workspaceFolder}/Source"],
+    "C_Cpp.default.browse.limitSymbolsToIncludedHeaders": true,
+
+    "C_Cpp.default.includePath": ["${workspaceFolder}/Source"],
+
+    "files.associations": {"*.h": "cpp"},
+    "editor.quickSuggestions": {
+      "other": "on",
+      "comments": "on",
+      "strings": "on"
+    },
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+
+    "files.watcherExclude": {
+    "**/.git/**": true,
+    "**/.vs/**": true,
+    "**/Binaries/**": true,
+    "**/DerivedDataCache/**": true,
+    "**/Intermediate/**": true,
+    "**/Saved/**": true,
+    "**/Plugins/*/Binaries/**": true,
+    "**/Plugins/*/Intermediate/**": true
+  	},
+  	"search.exclude": {
+    "**/.git": true,
+    "**/.vs": true,
+    "**/Binaries": true,
+    "**/DerivedDataCache": true,
+    "**/Intermediate": true,
+    "**/Saved": true,
+    "**/Plugins/*/Binaries": true,
+    "**/Plugins/*/Intermediate": true
+  },
+  "editor.semanticHighlighting.enabled": true
+
 }
