@@ -80,6 +80,7 @@ public:
 
 	//Player Ability Tags
 	FGameplayTag Abilities_Fire_FireBolt;
+	FGameplayTag Abilities_Lightning_Electrocute;
 
 	//Cooldown Tags
 	FGameplayTag Cooldown_Fire_FireBolt;
