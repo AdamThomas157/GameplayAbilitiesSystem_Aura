@@ -43,6 +43,10 @@ public:
 	UFUNCTION(Server, Reliable)
 	void ServerUpgradeAttribute(const FGameplayTag& AttributeTag);
 
+	void UpdateAbilityStatuses(int32 Level);
+
+	FGameplayAbilitySpec* GetSpecFromAbilityTag(const FGameplayTag& AbilityTag);
+
 protected:
 
 	virtual void OnRep_ActivateAbilities() override;
