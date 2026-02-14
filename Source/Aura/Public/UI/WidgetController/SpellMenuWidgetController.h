@@ -10,6 +10,12 @@
 
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FSpellGlobeSelectedSignature, bool, bShouldSpendPointsButtonEnabled, bool, bShouldEquipButtonEnabled);
 
+struct FSelectedAbility
+{
+	FGameplayTag Ability = FGameplayTag();
+	FGameplayTag Status = FGameplayTag();
+};
+
 /**
  * 
  */
@@ -31,5 +37,7 @@ public:
 	void SpellGlobeSelected(const FGameplayTag& AbilityTag);
 
 private:
-	static void ShouldEnableButtons(const FGameplayTag& AbilityStatus, int32 SpellPoints, bool& bShouldEnableSpendPointsButton, bool& bShouldEquipButtonEnabled);
+	static void ShouldEnableButtons(const FGameplayTag& AbilityStatus, int32 SpellPoints, bool& bShouldEnableSpendPointsButton, bool& bShouldEnableEquipButton);
+	FSelectedAbility SelectedAbility = { FAuraGameplayTags::Get().Abilities_None, FAuraGameplayTags::Get().Abilities_Status_Locked };
+	int32 CurrentSpellPoints = 0;
 };
