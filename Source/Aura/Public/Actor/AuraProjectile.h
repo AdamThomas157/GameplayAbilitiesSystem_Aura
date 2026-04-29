@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "GameplayEffectTypes.h"
+#include "AuraAbilityTypes.h"
 #include "AuraProjectile.generated.h"
 
 class UNiagaraSystem;
@@ -24,7 +24,7 @@ public:
 	TObjectPtr<UProjectileMovementComponent> ProjectileMovement;
 
 	UPROPERTY(BlueprintReadWrite, meta = (ExposeOnSpawn = true))
-	FGameplayEffectSpecHandle DamageEffectSpecHandle;
+	FDamageEffectParams DamageEffectParams;
 
 protected:
 
@@ -39,7 +39,7 @@ private:
 
 	UPROPERTY(EditDefaultsOnly)
 	float LifeSpan = 15.f;
-
+	void OnHit();
 	bool bHit = false;
 
 	UPROPERTY(VisibleAnywhere)
