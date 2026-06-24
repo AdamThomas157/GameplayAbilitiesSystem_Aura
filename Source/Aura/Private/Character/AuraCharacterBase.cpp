@@ -7,6 +7,7 @@
 #include "AbilitySystem/AuraAbilitySystemComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "Components/SkeletalMeshComponent.h"
+#include "AbilitySystem/Debuff/DebuffNiagaraComponent.h"
 #include "AuraGameplayTags.h"
 #include "Kismet/GameplayStatics.h"
 
@@ -14,6 +15,11 @@
 AAuraCharacterBase::AAuraCharacterBase()
 {
 	PrimaryActorTick.bCanEverTick = false;
+	const FAuraGameplayTags& GameplayTags = FAuraGameplayTags::Get();
+
+	BurnDebuffComponent = CreateDefaultSubobject<UDebuffNiagaraComponent>("BurnDebuffComponent");
+	BurnDebuffComponent->SetupAttachment(GetRootComponent());
+	BurnDebuffComponent->DebuffTag = GameplayTags.Debuff_Burn;
 
 	GetCapsuleComponent()->SetCollisionResponseToChannel(ECC_Camera, ECR_Ignore);
 	GetCapsuleComponent()->SetGenerateOverlapEvents(false);
@@ -60,6 +66,7 @@ void AAuraCharacterBase::MulticastHandleDeath_Implementation()
 	GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 	Dissolve();
 	bDead = true;
+	BurnDebuffComponent->Deactivate();
 }
 
 // Called when the game starts or when spawned
@@ -141,6 +148,12 @@ ECharacterClass AAuraCharacterBase::GetCharacterClass_Implementation()
 {
     return CharacterClass;
 }
+
+FOnASCRegistered AAuraCharacterBase::GetOnASCRegisteredDelegate()
+{
+    return OnASCRegistered;
+}
+
 
 void AAuraCharacterBase::InitAbilityActorInfo()
 {
