@@ -187,6 +187,8 @@ void UAuraAttributeSet::HandleIncomingDamage(const FEffectProperties& Props)
 
 		if (bFatal)
 		{
+			//TODO: Use Death Impulse!
+
 			ICombatInterface* CombatInterface = Cast<ICombatInterface>(Props.TargetAvatarActor);
 
 			if (CombatInterface)
