@@ -4,6 +4,7 @@
 #include "AbilitySystem/Abilities/AuraFireBolt.h"
 #include "Actor/AuraProjectile.h"
 #include "AbilitySystem/AuraAbilitySystemLibrary.h"
+#include "GameFramework/ProjectileMovementComponent.h"
 
 FString UAuraFireBolt::GetDescription(int32 Level)
 {
@@ -99,10 +100,11 @@ void UAuraFireBolt::SpawnProjectiles(const FVector& ProjectileTargetLocation, co
     if (bOverridePitch) Rotation.Pitch = PitchOverride;
 
     const FVector Forward = Rotation.Vector();
+    const int32 EffectiveNumProjectiles = FMath::Min(NumProjectiles, GetAbilityLevel());
 
-    TArray<FRotator> Rotations = UAuraAbilitySystemLibrary::EvenlySpacedRotators(Forward, FVector::UpVector, ProjectileSpread, NumProjectiles);
+    TArray<FRotator> Rotations = UAuraAbilitySystemLibrary::EvenlySpacedRotators(Forward, FVector::UpVector, ProjectileSpread, EffectiveNumProjectiles);
 
-    for(const FRotator& Rot : Rotations)
+    for (const FRotator& Rot : Rotations)
     {
         FTransform SpawnTransform;
         SpawnTransform.SetLocation(SocketLocation);
@@ -116,6 +118,20 @@ void UAuraFireBolt::SpawnProjectiles(const FVector& ProjectileTargetLocation, co
 		ESpawnActorCollisionHandlingMethod::AlwaysSpawn);
 
 	    Projectile->DamageEffectParams = MakeDamageEffectParamsFromClassDefaults();
+
+        if (HomingTarget && HomingTarget->Implements<UCombatInterface>())
+        {
+            Projectile->ProjectileMovement->HomingTargetComponent = HomingTarget->GetRootComponent();
+        }
+        else
+        {
+            Projectile->HomingTargetSceneComponent = NewObject<USceneComponent>(USceneComponent::StaticClass());
+            Projectile->HomingTargetSceneComponent->SetWorldLocation(ProjectileTargetLocation);
+            Projectile->ProjectileMovement->HomingTargetComponent = Projectile->HomingTargetSceneComponent;
+        }
+
+        Projectile->ProjectileMovement->HomingAccelerationMagnitude = FMath::FRandRange(HomingAccelerationMin, HomingAccelerationMax);
+        Projectile->ProjectileMovement->bIsHomingProjectile = bLaunchHomingProjectiles;
 
     	Projectile->FinishSpawning(SpawnTransform);
     }
